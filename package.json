@@ -1,0 +1,29 @@
+{
+  "name": "card-game-backend",
+  "version": "1.0.0",
+  "description": "awesome card game",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon -e html,js server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shachsan/card-game-backend.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Sanjay Sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shachsan/card-game-backend/issues"
+  },
+  "homepage": "https://github.com/shachsan/card-game-backend#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
