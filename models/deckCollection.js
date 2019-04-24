@@ -31,7 +31,7 @@ class DeckCollection{
         if(deck){
             let drawnCards = deck.cards.splice(0,5);
             deck.remaining=deck.cards.length;
-            return drawnCards;
+            return {deckId:deck.id, cards:drawnCards, remaining:deck.remaining};
         }else{
             return {message:'deck does not exist'}
         }
