@@ -6,6 +6,15 @@ class DeckCollection{
         this.maxDeck=5;
     }
 
+    shuffleNewDeck(cards){
+        let shuffledCards=[];
+        while(cards.length){
+            let randomCard=cards.splice(Math.floor(Math.random()*cards.length),1)[0]
+            shuffledCards.push(randomCard);
+        }
+        return shuffledCards;
+    }
+
     createNewDeck(){
         console.log('=====new deck created===');
         if(this.decks.length===this.maxDeck){
@@ -24,14 +33,20 @@ class DeckCollection{
                     cards.push({value:values[v], suit:suits[s]});
                 }
             }
-            deck.cards = cards;
-            deck.remaining=cards.length;
+
+            //shuffle cards here
+            const shuffledCards= this.shuffleNewDeck(cards);
+
+            deck.cards = shuffledCards;
+            deck.remaining=shuffledCards.length;
             this.decks.push(deck);
 
         return deck;
         }
 
     }
+
+  
 
     drawCard(id){
         console.log('id===>', id);
