@@ -19,7 +19,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `[{ id : 1v310cjuw1zdif,\ 
+    **Content:** ```[{ id : 1v310cjuw1zdif,
                     `cards : [{
                                 `value: "J",
                                 `suit: "club"
@@ -35,7 +35,7 @@
                       `id: ....,
                       `cards:[{...}],
                       `remaining:...
-                    `}]`
+                    `}]```
 ---- 
 
 
@@ -120,6 +120,3 @@
                       `remaining: 47
                    `}
 
-
-
-  ```
