@@ -77,7 +77,7 @@
                               {...}],
                       remaining: 52
                    }
-        ```
+        
 ----
 
 **Draw cards from specific deck**
