@@ -19,8 +19,9 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** ```[{ id : 1v310cjuw1zdif, <br />
-                    cards : [{<br />
+    **Content:** 
+    ```[{ id : 1v310cjuw1zdif,
+                    cards : [{
                                 value: "J",
                                 suit: "club"
                               },
