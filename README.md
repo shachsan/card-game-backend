@@ -20,7 +20,8 @@
 
   * **Code:** 200 <br />
     **Content:** 
-    ```[{ id : 1v310cjuw1zdif,
+    ```
+                 [{ id : 1v310cjuw1zdif,
                     cards : [{
                                 value: "J",
                                 suit: "club"
@@ -36,8 +37,9 @@
                       id: ....,
                       cards:[{...}],
                       remaining:...
-                    }]
-                    ```
+                    }
+                 ]
+       ```
 ---- 
 
 
