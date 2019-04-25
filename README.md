@@ -62,18 +62,22 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 1v310cjuw1zdif, 
-                    `cards : [{
-                                `value: "J",
-                                `suit: "club"
-                              `},
-                              `{
-                                `value: "A",
-                                `suit: "spades"
-                              `},
-                              `{...},
-                              `{...}],
-                    `remaining: 52}`
+    **Content:** 
+    ```
+                   {  id : 1v310cjuw1zdif, 
+                      cards : [{
+                                value: "J",
+                                suit: "club"
+                              },
+                              {
+                                value: "A",
+                                suit: "spades"
+                              },
+                              {...},
+                              {...}],
+                      remaining: 52
+                   }
+             ```
 ----
 
 **Draw cards from specific deck**
@@ -97,30 +101,34 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{
-                      `deckId: "1v310cjuwt3oz1",
-                      `cards: [
-                          `{
-                              `value: "6",
-                              `suit: "club"
-                          `},
-                          `{
-                              `value: "3",
-                              `suit: "diamond"
-                          `},
-                          `{
-                              `value: "5",
-                              `suit: "spades"
-                          `},
-                          `{
-                              `value: "7",
-                              `suit: "spades"
-                          `},
-                          `{
-                              `value: "7",
-                              `suit: "heart"
-                          `}
-                      `],
-                      `remaining: 47
-                   `}
+    **Content:** 
+    ```
+          {
+             deckId: "1v310cjuwt3oz1",
+             cards: [
+                {
+                    value: "6",
+                    suit: "club"
+                },
+                {
+                    value: "3",
+                    suit: "diamond"
+                },
+                {
+                    value: "5",
+                    suit: "spades"
+                },
+                {
+                    value: "7",
+                    suit: "spades"
+                },
+                {
+                    value: "7",
+                    suit: "heart"
+                }
+            ],
+            remaining: 47
+         }
+    ```    
+     
 
