@@ -20,22 +20,23 @@
 
   * **Code:** 200 <br />
     **Content:** ```[{ id : 1v310cjuw1zdif,
-                    `cards : [{
-                                `value: "J",
-                                `suit: "club"
-                              `},
-                              `{
-                                `value: "A",
-                                `suit: "spades"
-                              `},
-                              `...
-                              `...],
-                    `remaining: 12},
-                    `{
-                      `id: ....,
-                      `cards:[{...}],
-                      `remaining:...
-                    `}]```
+                    cards : [{
+                                value: "J",
+                                suit: "club"
+                              },
+                              {
+                                value: "A",
+                                suit: "spades"
+                              },
+                              ...
+                              ...],
+                    remaining: 12},
+                    {
+                      id: ....,
+                      cards:[{...}],
+                      remaining:...
+                    }]
+                    ```
 ---- 
 
 
