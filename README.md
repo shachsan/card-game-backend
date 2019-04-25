@@ -16,14 +16,10 @@
 
    None
 
-* **Data Params**
-
-  None
-
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `[{ id : 1v310cjuw1zdif, 
+    **Content:** `[{ id : 1v310cjuw1zdif,\ 
                     `cards : [{
                                 `value: "J",
                                 `suit: "club"
@@ -58,10 +54,6 @@
 *  **URL Params**
 
    None
-
-* **Data Params**
-
-  None
 
 * **Success Response:**
 
